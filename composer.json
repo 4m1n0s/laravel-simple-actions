@@ -1,0 +1,35 @@
+{
+    "name": "4m1n0s/laravel-simple-actions",
+    "description": "Laravel Simple Actions is a simple and clean way to run business actions using a Laravel Pipeline, Actions in a structured and type-safe way.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "Tihouati Mohamed Lamine",
+            "email": "tihouati.amine@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Am1n0s\\LSA\\": "src/"
+        }
+    },
+    "scripts": {
+        "pint": [
+            "./vendor/bin/pint"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
